@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Soil Farming Agent</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/logger.js"></script>
+  <script src="js/admin.js"></script>
+</head>
+<body>
+  <h2>Admin Dashboard</h2>
+  <h3>Post Soil Details</h3>
+  <input type="text" id="soilType" placeholder="Soil Type">
+  <textarea id="description" placeholder="Description"></textarea>
+  <button onclick="postSoil(document.getElementById('soilType').value, document.getElementById('description').value)">Post Soil</button>
+
+  <h3>Post Distributor Details</h3>
+  <input type="text" id="distributorName" placeholder="Distributor Name">
+  <input type="text" id="contact" placeholder="Contact">
+  <button onclick="postDistributor(document.getElementById('distributorName').value, document.getElementById('contact').value)">Post Distributor</button>
+</body>
+</html>
