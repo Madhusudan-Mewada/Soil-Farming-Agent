@@ -9,13 +9,13 @@
 //   };
 
   const firebaseConfig = {
-    apiKey: "AIzaSyBvbiUBXGysmFiq0o668PaB7dB1gR0J50U",
-    authDomain: "soil-farming-agent-3eb4e.firebaseapp.com",
-    projectId: "soil-farming-agent-3eb4e",
-    storageBucket: "soil-farming-agent-3eb4e.firebasestorage.app",
-    messagingSenderId: "469753286055",
-    appId: "1:469753286055:web:0725b998653a5bba357a82",
-    measurementId: "G-SCSSKCB171"
+    apiKey: "AIzaSyBiNkyIm57X01SPl9RlQn2iRSLdFLAtKAU",
+    authDomain: "soil-farming-agent-4ab23.firebaseapp.com",
+    projectId: "soil-farming-agent-4ab23",
+    storageBucket: "soil-farming-agent-4ab23.firebasestorage.app",
+    messagingSenderId: "563814397374",
+    appId: "1:563814397374:web:2ca5544da4f006f19035ef",
+    measurementId: "G-M5BXR5MXSE"  
   };
   
   
